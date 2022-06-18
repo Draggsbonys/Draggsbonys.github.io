@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@400;700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="/css/style.css">
+   <title>Прогноз погоды</title>
+</head>
+<body>
+   <div class="wrapper">
+      <div class="container">
+         <header class="header">
+            <h1 class="header__title">Узнай погоду своего города!</h1>
+         </header>
+         <div data-spollers data-one-spoller class="block block-1"> 
+            <div class="block__body block__body-1">
+               <button tabindex="-1" type="button" data-spoller class="block__title block__title-1">&nbsp &nbsp &nbsp &nbsp Karagandy</button> 
+               <div class="block__item">
+                  <div class="block__weather weather">
+                     <div class="weather__degrees-krg weather__degrees"></div>
+                     <div class="weather__description-krg weather__description"></div>
+                     <div class="weather__icon-krg"></div>
+                     <button class="weather__button-krg weather__button"><a class="weather__button-link" href="#">Refresh</a></button>
+                  </div>
+               </div>
+            </div>
+            <div class="block__body block__body-2">
+               <button tabindex="-1" type="button" data-spoller class="block__title block__title-2">&nbsp &nbsp &nbsp &nbsp Aktobe</button> 
+               <div class="block__item">
+                  <div class="block__weather weather">
+                     <div class="weather__degrees-akb weather__degrees"></div>
+                     <div class="weather__description-akb weather__description"></div>
+                     <div class="weather__icon-akb"></div>
+                     <button class="weather__button-akb weather__button"><a class="weather__button-link" href="#">Refresh</a></button>
+                  </div>
+               </div>
+            </div>
+            <div class="block__body block__body-3">
+               <button tabindex="-1" type="button" data-spoller class="block__title block__title-3">&nbsp &nbsp &nbsp &nbsp Moscow</button> 
+               <div class="block__item">
+                  <div class="block__weather weather">
+                     <div class="weather__degrees-msc weather__degrees"></div>
+                     <div class="weather__description-msc weather__description"></div>
+                     <div class="weather__icon-msc"></div>
+                     <button class="weather__button-msc weather__button"><a class="weather__button-link" href="#">Refresh</a></button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+<script src="/js/script.js"></script>   
+</body>
+</html>
